@@ -1,3 +1,33 @@
+section header{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--stroke-color);
+  padding-block: .75rem 1.5rem;
+  font-size: var(--fs-sm);
+  line-height: 1.45;
+  font-weight: var(--fw-semibold);
+
+  & a{
+    display: grid;
+    grid-auto-flow: column;
+    justify-self: end;
+    align-items: center;
+    gap: .5rem;
+
+    & span{
+      background-image: url(../assets/icon/ArrowRight.svg);
+      width: 1rem;
+      height: 1rem;
+      background-repeat: no-repeat;
+    }
+
+    &:hover span {
+      background-image: url(../assets/icon/Vector.svg);
+    }
+  }
+}
+
+
 #featured{
   margin-block: 0 1rem;
   gap: 1rem;
