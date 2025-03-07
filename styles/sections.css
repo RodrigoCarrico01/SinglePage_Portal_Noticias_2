@@ -50,7 +50,7 @@ section header{
     }
   }
   &  .card{
-    margin: 1rem;
+    margin-block: 1rem;
     border-radius: .25rem;
     overflow: hidden;
     position: relative;
@@ -64,6 +64,28 @@ section header{
         transparent 0%,
         rgba(2, 6, 23, 0.9) 100%
       );
+    }
+  }
+}
+
+#weekly{
+  padding-block: 0 2rem;
+  & > div{
+    gap: 2rem;
+  }
+  & img{
+    height: 160px;
+  }
+  &  figure{
+    position: relative;
+    & .content-tag{
+      position: absolute;
+      top: 8px;
+      left: 8px;
+    }
+    &  p{
+      margin-top: 8px;
+      font-weight: 800;
     }
   }
 }
@@ -83,6 +105,14 @@ section header{
     }
     & .card{
       margin: 0;
+    }
+  }
+
+  #weekly{
+    padding-block: 0 5rem;
+    & > div{
+      gap: 1rem;
+      grid-template-columns: repeat(4, 1fr);
     }
   }
 }

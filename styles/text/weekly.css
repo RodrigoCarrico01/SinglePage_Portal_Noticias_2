@@ -1,0 +1,29 @@
+.responsive-text.veiculosweekly::after {
+  content: "Protótipo de veículo voador é apresentado, marcando o início da era dos transportes aéreos pessoais.";
+}
+.responsive-text.hologramasweekly::after {
+  content: "Plataforma de videoconferência apresenta nova função de hologramas, tornando as chamadas virtuais mais re...";
+}
+.responsive-text.vrweekly::after {
+  content: "Nova geração de consoles de videogame é lançada, trazendo gráficos ultra-realistas e experiências de jogo totalm...";
+}
+.responsive-text.internetweekly::after {
+  content: "Projeto busca oferecer internet de alta velocidade em áreas remotas através de satélites.";
+}
+
+
+@media (width >= 80em) {
+  .responsive-text.veiculosweekly::after {
+    content: "Protótipo de veículo voador é apresentado, marcando o início da era dos transportes aéreos pessoa...";
+  }
+  .responsive-text.hologramasweekly::after {
+    content: "Plataforma de videoconferência apresenta nova função de hologramas, tornando as chamada...";
+  }
+  .responsive-text.vrweekly::after {
+    content: "Nova geração de consoles de videogame é lançada, trazendo gráficos ultra-realistas e experiên...";
+  }
+  .responsive-text.internetweekly::after {
+    content: "Projeto busca oferecer internet de alta velocidade em áreas remotas através de satélites.";
+  }
+
+}
