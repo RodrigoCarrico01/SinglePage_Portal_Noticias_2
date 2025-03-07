@@ -25,7 +25,6 @@
   max-width: var(--max-width);
   width: calc(100% - var(--px-base) * 2);
   margin-inline: auto;
-  border: solid violet;
 }
 .desktop-only{
   display: none;

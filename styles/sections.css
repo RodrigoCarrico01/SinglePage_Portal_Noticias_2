@@ -1,6 +1,48 @@
+#featured{
+  margin-block: 0 1rem;
+  gap: 1rem;
+  & h3 {
+    margin-top: .5rem;
+  }
+  
+  & img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  & figcaption{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    color: var(--text-color-primary);
+    &:has(.responsive-text) {
+      padding: .75rem;
+    }
+  }
+  &  .card{
+    margin: 1rem;
+    border-radius: .25rem;
+    overflow: hidden;
+    position: relative;
+    &::before{
+      content: "";
+      position: absolute;
+      inset: 0;
+      top: 50%;
+      background: linear-gradient(
+        180deg,
+        transparent 0%,
+        rgba(2, 6, 23, 0.9) 100%
+      );
+    }
+  }
+}
+
 
 @media (width>=80em){
   #featured{
+
+    padding-block: 2.5rem 5rem;
     display: grid;
     grid-auto-flow: column;
     gap: 1rem;
@@ -8,6 +50,9 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 1rem;
+    }
+    & .card{
+      margin: 0;
     }
   }
 }
