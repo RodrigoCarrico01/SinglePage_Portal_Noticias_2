@@ -1,0 +1,33 @@
+.responsive-text.robotica::after {
+  content: "Robôs domésticos começam a ser adotados para tarefas...";
+}
+.responsive-text.hologramas::after {
+  content: "Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!";
+}
+.responsive-text.internet::after {
+  content: "Tecnologia 6G chega às metrópoles brasileiras, prometendo revolucionar a forma como vivemos e nos comunicamos.";
+}
+.responsive-text.vestiveis::after {
+  content: "Empresa lança relógio inteligente capaz de monitorar a saúde mental, oferecendo insights valiosos para o bem-estar pesso...";
+}
+.responsive-text.vr::after {
+  content: "Escolas adotam a tecnologia VR para proporcionar experiências imersivas, transformando a aprendizagem tradicional.";
+}
+
+@media (width >= 80em) {
+  .responsive-text.robotica::after {
+    content: "Robôs domésticos começam a ser adotados para tarefas diárias, prometendo mais conforto e eficiência nas residências.";
+  }
+  .responsive-text.hologramas::after {
+    content: "Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!";
+  }
+  .responsive-text.internet::after {
+    content: "Tecnologia 6G chega às metrópoles brasileiras, prometendo revolucionar a forma como vivemos e nos comuni...";
+  }
+  .responsive-text.vestiveis::after {
+    content: "Empresa lança relógio inteligente capaz de monitorar a saúde mental, oferecendo insights valiosos para o...";
+  }
+  .responsive-text.vr::after {
+    content: "Escolas adotam a tecnologia VR para proporcionar experiências imersivas, transformando a aprendizagem trad...";
+  }
+}

@@ -72,7 +72,10 @@ a{
 a:hover{
   color: var(--brand-color-light);
 }
-
+img{
+  width: 100%;
+  display: inline-block;
+}
 @media (width >= 80em){
  :root{
   --py-base: 1.25rem;

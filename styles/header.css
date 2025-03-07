@@ -19,6 +19,8 @@
   gap: 2rem; 
   overflow-x: auto; 
   white-space: nowrap; 
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
 }
 @media (width >= 80em) {
   #secondary {
