@@ -1,0 +1,66 @@
+.py-sm{
+  padding-block: var(--py-sm);
+}
+.py-base{
+  padding-block: var(--py-base);
+}
+.px-base{
+  padding-inline: var(--px-base);
+}
+
+.content-tag{
+  display: inline-block;
+  background-color: var(--brand-color-dark);
+  padding: .25rem .5rem;
+  border-radius: .25rem;
+  font: 500 .625rem/1.2 var(--ff-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-color-primary);
+  box-shadow: 0 .25rem 1rem rgba(2, 6, 23, 0.251);
+} 
+
+.container{
+  --max-width: 375px;
+  max-width: var(--max-width);
+  width: calc(100% - var(--px-base) * 2);
+  margin-inline: auto;
+  border: solid violet;
+}
+.desktop-only{
+  display: none;
+}
+
+.even-columns{
+  display: grid;
+  gap: 1rem;
+}
+.flex{
+  display: flex;
+}
+.items-center{
+  align-items: center;
+}
+.gap-1{
+  gap: 1rem;
+}
+.gap-1\.5{
+  gap: 1.5rem;
+}
+.grid{
+  display: grid;
+}
+
+
+@media (width >= 80em){
+  .container{
+    --max-width: 80em;
+  }
+  .desktop-only{
+    display: initial;
+  }
+  .even-columns{
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+}

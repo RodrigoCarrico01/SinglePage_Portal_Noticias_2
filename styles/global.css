@@ -64,6 +64,15 @@ h3{
   font-size: var(--fs-sm);
 }
 
+a{
+  text-decoration: none;
+  font: inherit;
+  color: inherit;
+}
+a:hover{
+  color: var(--brand-color-light);
+}
+
 @media (width >= 80em){
  :root{
   --py-base: 1.25rem;
