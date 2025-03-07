@@ -1,5 +1,4 @@
 #primary{
-  border: 1px solid red;
   & div{
     display: flex;
     align-items: center;
@@ -10,5 +9,20 @@
   }
   & div:nth-child(3){
     justify-self: end;
+  }
+}
+
+#secondary{
+  border: solid 1px var(--stroke-color);
+  border-inline: none;
+  justify-content: space-between;
+  gap: 2rem; 
+  overflow-x: auto; 
+  white-space: nowrap; 
+}
+@media (width >= 80em) {
+  #secondary {
+    overflow-x: hidden;
+    white-space: normal;
   }
 }
