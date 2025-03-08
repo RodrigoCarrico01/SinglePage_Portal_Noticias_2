@@ -92,6 +92,9 @@ section header{
 main{
   margin-bottom: 2.5rem;
 }
+#main-card{
+  height: 26rem;
+}
 
 #ai {
   padding-block: 2rem;
@@ -152,6 +155,9 @@ aside{
 }
 
 @media (width>=80em){
+  #main-card{
+    height: auto;
+  }  
   main{
     margin-bottom: 5rem;
   }

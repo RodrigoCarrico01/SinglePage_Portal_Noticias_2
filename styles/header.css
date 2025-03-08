@@ -22,9 +22,11 @@
   scrollbar-width: none; 
   -ms-overflow-style: none;
 }
+
 @media (width >= 80em) {
   #secondary {
     overflow-x: hidden;
     white-space: normal;
   }
+
 }
