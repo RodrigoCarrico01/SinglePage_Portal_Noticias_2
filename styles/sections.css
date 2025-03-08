@@ -132,12 +132,17 @@ aside{
     border-top: 1px solid var(--stroke-color);
     padding-block: 1rem;
   }
+  & .content-tag {
+    margin-bottom: .5rem;
+  }
   & .more-article {
+    margin-block: .75rem;
     display: flex;
+    justify-content: space-between;
     gap: 1rem;
     & img{
-      width: 4rem;
-      height: 4rem;
+      width: 5rem;
+      height: 5rem;
       object-fit: cover;
     }
   }
