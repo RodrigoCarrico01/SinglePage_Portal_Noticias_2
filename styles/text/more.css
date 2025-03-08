@@ -1,0 +1,36 @@
+.responsive-text.more-1::after {
+  content: "Aplicativo de monitoramento ambiental ganha destaque, in...";
+}
+.responsive-text.more-2::after {
+  content: "Óculos de realidade virtual com feedback tátil proporcio...";
+}
+
+.responsive-text.more-3::after {
+  content: "Surge uma nova moeda digital baseada em tecnologias sust...";
+}
+.responsive-text.more-4::after {
+  content: "Empresas de e-commerce implementam frota de drones...";
+}
+.responsive-text.more-5::after {
+  content: "Tecnologia inovadora permite a impressão 3D de órgãos hu...";
+}
+
+
+@media (width >= 80em){
+  .responsive-text.more-1::after {
+    content: "Aplicativo de monitoramento ambiental ganha destaque, incentivando práticas ecológicas e pro...";
+  }
+  .responsive-text.more-2::after {
+    content: "Óculos de realidade virtual com feedback tátil proporcionam uma experiência sensorial complet...";
+  }
+  
+  .responsive-text.more-3::after {
+    content: "Surge uma nova moeda digital baseada em tecnologias sustentáveis, buscando minimizar o i...";
+  }
+  .responsive-text.more-4::after {
+    content: "Empresas de e-commerce implementam frota de drones para entregas rápidas, transformando o ce...";
+  }
+  .responsive-text.more-5::after {
+    content: "Tecnologia inovadora permite a impressão 3D de órgãos humanos, revolucionando a medicina e a li...";
+  }  
+}

@@ -29,6 +29,9 @@
 .desktop-only{
   display: none;
 }
+.mobile-only{
+  display: initial;
+}
 
 .even-columns{
   display: grid;
@@ -65,5 +68,8 @@
   .even-columns{
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
+  }
+  .mobile-only{
+    display: none;
   }
 }

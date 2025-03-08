@@ -1,0 +1,58 @@
+.responsive-text.ai-1::after {
+  content: "Empresa surpreende o mundo ao anunciar um alg...";
+}
+.responsive-text.ai-1-text::after {
+  content: "Em um avanço surpreendente da inteligência artificial, uma empresa anuncia o desenvolvimento de um algoritmo capaz de prever eventos f...";
+}
+
+.responsive-text.ai-2::after {
+  content: "Dispositivo portátil promete traduzir instantaneamente...";
+}
+.responsive-text.ai-2-text::after {
+  content: "Em um mundo cada vez mais conectado, a comunicação sem fronteiras é essencial. Nesse contexto, um dispositivo portátil sur...";
+}
+
+.responsive-text.ai-3::after {
+  content: "Criados para auxiliar idosos, robôs de companhia ganha...";
+}
+.responsive-text.ai-3-text::after {
+  content: "A tecnologia não só avança, mas também busca tornar a vida mais significativa para todas as gerações. No cenário atual, os robôs sociais,...";
+}
+
+.responsive-text.ai-4::after {
+  content: "Aplicativo utiliza inteligência artificial para ajudar usuári...";
+}
+.responsive-text.ai-4-text::after {
+  content: "No turbilhão da vida moderna, onde distrações são abundantes, um aplicativo inovador surge como um aliado indispensável para quem bus...";
+}
+
+
+@media (width >= 80em){
+  .responsive-text.ai-1::after {
+    content: "Empresa surpreende o mundo ao anunciar um algoritmo capaz de prever eventos futuros com alta precisão.";
+  }
+  .responsive-text.ai-1-text::after {
+    content: "Em um avanço surpreendente da inteligência artificial, uma empresa anuncia o desenvolvimento de um algoritmo capaz de prever eventos futuros com notável precisão. Descubra como essa tecnologia está desafiando as fronteiras da previsão e quais são as implicações...";
+  }
+
+  .responsive-text.ai-2::after {
+    content: "Dispositivo portátil promete traduzir instantaneamente diferentes idiomas, facilitando a comunicação global.";
+  }
+  .responsive-text.ai-2-text::after {
+    content: "Em um mundo cada vez mais conectado, a comunicação sem fronteiras é essencial. Nesse contexto, um dispositivo portátil surge como um verdadeiro herói linguístico, prometendo quebrar as barreiras idiomáticas instantaneamente. Imagine poder se comunicar fluentemente...";
+  }
+
+  .responsive-text.ai-3::after {
+    content: "Criados para auxiliar idosos, robôs de companhia ganham popularidade, oferecendo suporte emocional e físico aos usu...";
+  }
+  .responsive-text.ai-3-text::after {
+    content: "A tecnologia não só avança, mas também busca tornar a vida mais significativa para todas as gerações. No cenário atual, os robôs sociais, projetados especialmente para oferecer apoio e companhia aos idosos, estão ganhando destaque. Mais do que meros assistentes, esses...";
+  }
+
+  .responsive-text.ai-4::after {
+    content: "Aplicativo utiliza inteligência artificial para ajudar usuários a manterem o foco e aumentarem a produtividade no dia a dia.";
+  }
+  .responsive-text.ai-4-text::after {
+    content: "No turbilhão da vida moderna, onde distrações são abundantes, um aplicativo inovador surge como um aliado indispensável para quem busca maior concentração e eficiência no cotidiano. Utilizando avançados algoritmos de inteligência artificial, este aplicativo promete mais...";
+  }
+}

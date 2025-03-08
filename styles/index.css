@@ -3,3 +3,4 @@
 @import url(header.css);
 @import url(text/index.css);
 @import url(sections.css);
+@import url(area.css) (width >= 80rem);

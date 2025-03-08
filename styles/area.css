@@ -1,0 +1,24 @@
+main{
+  grid-template-columns: 2fr 1.4fr;
+  grid-template-areas: 
+  "featured featured"
+  "weekly weekly"
+  "ai aside";
+}
+
+#featured{
+  grid-area: featured;
+}
+#weekly{
+  grid-area: weekly;
+}
+#ai{
+  grid-area: ai;
+
+}
+
+aside{
+  margin-left: 2rem;
+  grid-area: aside;
+}
+
