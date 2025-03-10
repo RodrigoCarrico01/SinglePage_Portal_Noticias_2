@@ -142,7 +142,7 @@ aside{
     margin-bottom: .5rem;
   }
   & .more-article {
-    margin-block: .75rem;
+    margin-block: .63rem;
     display: flex;
     justify-content: space-between;
     gap: 1rem;
